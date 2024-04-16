@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fichas[
+    <!ENTITY poblacion "Tejeda de Tiétar, Cáceres">
+    <!ENTITY provincia SYSTEM "provincia.txt">
+    <!ENTITY detalle SYSTEM "ficha.xml">
+
+]>
+
+
+<grupo>
+&detalle;
+    <fichas>
+        <ficha>
+            <empresa nombre = "Tractores Toledo"></empresa>
+            <poblacion>&poblacion;</poblacion>
+            <provincia>&provincia;</provincia>
+        </ficha>
+        <ficha>
+            <empresa nombre = "Congelados Kaneclo"></empresa>
+            <poblacion>&poblacion;</poblacion>
+            <provincia>&provincia;</provincia>
+        </ficha>
+    </fichas>
+</grupo>
+
+
+
+
+
+
+<!--
+<ficha>
+    <nombre> Lenguaje C</nombre>
+    <info-html>
+        <![CDATA[
+            <h1>LENGUAJES DE PROGRAMACIÓN<h1>
+            <hr>
+            <a href="url-enlace">C</a>
+        ]]>
+    </info-html>
+</ficha>
+
+<root xmlns:autorestecnicos='http://unaurlcualquiera'
+xmlns:autoresliterarios='http://otraurlcualquiera'
+
+<autorestecnicos:autor>Pedro</autorestecnicos:autor>
+<autoresliterarios:autor>Lucas</autoresliterarios:autor>
+
+<animales>
+    <animal id="1">
+        <nombre>Tiburón blanco</nombre>
+        <nombrecientifico>Carcharodon carcharias</nombrecientifico>
+    </animal>
+    <animal id="2">
+        <nombre>Tiburón ballena</nombre>
+        <nombrecientifico>Ni lo sé ni me acuerdo</nombrecientifico>
+    </animal>
+</animales>>
+-->
+
