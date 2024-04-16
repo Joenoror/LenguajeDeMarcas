@@ -3,7 +3,6 @@
     <!ENTITY poblacion "Tejeda de Tiétar, Cáceres">
     <!ENTITY provincia SYSTEM "provincia.txt">
     <!ENTITY detalle SYSTEM "ficha.xml">
-
 ]>
 
 
