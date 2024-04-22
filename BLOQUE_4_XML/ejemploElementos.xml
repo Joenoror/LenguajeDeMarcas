@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cv [
-
     <!ELEMENT cv (nombre, direccion, telefono, fax?, email+, idiomas)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT direccion (#PCDATA)>
@@ -9,6 +8,8 @@
     <!ELEMENT email (#PCDATA)>
     <!ELEMENT idiomas (idioma*)>
     <!ELEMENT idioma (#PCDATA)>
+    
+    <!ATTLIST idioma nivel (bajo|medio|alto) #REQUIRED>
 ]>
 
 <cv>
@@ -18,7 +19,7 @@
     <email>desmond.miles@servidordeprueba.org</email>
     <email>desmond.miles@otroservidor.fr</email>
     <idiomas>
-        <idioma>Francés</idioma>
+        <idioma nivel="bajo">Francés</idioma>
         <idioma>Inglés</idioma>
         <idioma>Italiano</idioma>
     </idiomas>
